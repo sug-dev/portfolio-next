@@ -5,14 +5,7 @@ import { ComponentProps, useState } from 'react'
 import file from '../../../public/file.png'
 
 import culdesac from '../components/projects/culdesac'
-import studioazure from '../components/projects/studioazure'
 import enterprise from '../components/projects/enterprise'
-import bfg from '../components/projects/bfg'
-import towerdefense from '../components/projects/towerdefense'
-import freshsqueeze from '../components/projects/freshsqueeze'
-import flashcard from '../components/projects/flashcard'
-import omnitool from '../components/projects/omnitool'
-import rpg from '../components/projects/rpg'
 
 interface Window {
     id: string,
@@ -52,14 +45,7 @@ const Projects = ({ setWindowsOpen, windowsOpen, windowRef, mainHeight }: Props)
 
     const [projects] = useState([
         {name: 'The Cul-De-Sac', type: 'Web Application', component: {component: culdesac, props: null}},
-        {name: 'Studio Azure', type: 'Design/Development Agency', component: {component: studioazure, props: null}},
         {name: 'Enterprise Software Suite', type: 'Web Software Suite', component: {component: enterprise, props: null}},
-        {name: 'B.F.G. Productions', type: 'Business Website', component: {component: bfg, props: null}},
-        {name: 'Tower Defense Game', type: 'Video Game', component: {component: towerdefense, props: null}},
-        {name: 'Fresh Squeeze Cleaner', type: 'Business Website', component: {component: freshsqueeze, props: null}},
-        {name: 'Flashcard App', type: 'Mobile Application', component: {component: flashcard, props: null}},
-        {name: 'Omnitool.io', type: 'Web Application', component: {component: omnitool, props: null}},
-        {name: '2D Role-Playing Game', type: 'Video Game', component: {component: rpg, props: null}}
     ])
 
     const addToWindows = (project: {

@@ -10,13 +10,13 @@ const Page = () => {
                     <Image src={logo} width={75} alt="Cul De Sac Logo" className="rounded-lg" />
                     <a href="https://theculdesac.club" target="_blank" rel="noopener noreferrer" className="underline text-neutral-700 hover:text-blue-500"><h1 className="font-bold text-4xl">The<br />Cul-De-Sac</h1></a>
                 </div>
-                <p className="text-neutral-700 pb-6">
-                    <b>TL;DR<br /></b>First real project built with Next.js. Largely a sandbox for various programming ideas including real-time applications and video games.
+                <div className="text-neutral-700 pb-6">
+                    <b>TL;DR<br /></b>First real project built with Next.js. Largely a sandbox for various programming ideas including real-time applications, video games, study tools, and image tools.
                     <br /><br />
                     <div className="w-full h-[1px] bg-neutral-600"></div>
                     <br />
-                    <b>The Cul-De-Sac</b> is my personal blog/coding playground of sorts.<br /><br />Whether I&#39;m writing a blog post, prototyping other applications, or trying my hand at recreating games, it will likely be on <b>The Cul-De-Sac</b>.<br /><br />This project was my first real foray into <b>Next.js</b> and <b>TypeScript</b>.<br /><br />Given that the website is my &#34;coding playground,&#34; it&#39;s where you will find the broadest scope as far as projects go. Some things you will find are a <b>real-time chat room</b>, a <b>flashcard system</b>, a <b>blog system</b> with <b>tag search</b>, a <b>collaborative real-time drawing canvas</b>, as well as several games like a <b>basic Cookie Clicker clone</b>, a <b>Tower Defense Game</b>, and a silly <b>falling object</b> game parodying a friend of mine.<br /><br />Overall, I&#39;m quite proud of this project and continue to iterate, add new features, and test out ideas that come to mind.
-                </p>
+                    <b>The Cul-De-Sac</b> is my personal blog/coding playground of sorts.<br /><br />Whether I&#39;m writing a blog post, prototyping other applications, or trying my hand at recreating games, it will likely be on <b>The Cul-De-Sac</b>.<br /><br />This project was my first real foray into <b>Next.js</b> and <b>TypeScript</b>.<br /><br />Previously, I hosted some video games on the site but they are hidden for the time being as I focus on some other things.<br /><br />You can find a constantly-updating <b>flashcard system</b>, a Japanese <b>kana study tool</b>, and an <b>image pointillization tool</b>.
+                </div>
             </div>
         </div>
     )

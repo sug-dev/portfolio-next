@@ -2,7 +2,7 @@ import Image, { StaticImageData } from "next/image"
 
 import birdStart from '../../../public/bird-start-4.svg'
 
-import Clock from "./clock"
+// import Clock from "./clock"
 
 interface Window {
     name: string,
@@ -45,7 +45,7 @@ const Toolbar = ({ windowsOpen }: Props) => {
                     )
                 })}
             </div>
-            <Clock />
+            {/* <Clock /> */}
         </div>
     )
 }

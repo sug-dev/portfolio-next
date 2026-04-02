@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import "./globals.css";
+import './globals.css'
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" style={{ backgroundColor: 'black' }}>
       <meta name="theme-color" content="#000"></meta>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex w-screen h-dvh sm:h-screen h-dvh sm:overflow-hidden overflow-hidden`}
